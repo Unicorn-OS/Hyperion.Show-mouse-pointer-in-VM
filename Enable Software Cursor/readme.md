@@ -10,3 +10,6 @@ echo ''' Section "Device"
    Option     "SWcursor" "on"
  EndSection''' | sudo tee /etc/X11/xorg.conf.d/vesa-swcursor.conf
  ```
+
+more:
+- https://www.reddit.com/r/linuxquestions/comments/21h663/comment/cgewt03/
