@@ -1,8 +1,5 @@
 ---
-- hosts: local #, fedora, ubuntu
-  vars:
-    somevar: "value"
-    source: "package"
+- hosts: fedora #, ubuntu
 
   roles:
-  - App
+  - vesa Software Cursor
