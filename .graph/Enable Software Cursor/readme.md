@@ -5,11 +5,11 @@ https://superuser.com/questions/1546702/qemu-no-visible-cursor-when-using-qxl-or
 > For anyone who’s interested, this how I enabled the software cursor:
 
 ```
-echo ''' Section "Device"
-   Identifier "graphicsdriver"
-   Option     "SWcursor" "on"
- EndSection''' | sudo tee /etc/X11/xorg.conf.d/vesa-swcursor.conf
- ```
+echo '''Section "Device"
+  Identifier "graphicsdriver"
+  Option     "SWcursor" "on"
+EndSection''' | sudo tee /etc/X11/xorg.conf.d/vesa-swcursor.conf
+```
 
 more:
 - https://www.reddit.com/r/linuxquestions/comments/21h663/comment/cgewt03/
