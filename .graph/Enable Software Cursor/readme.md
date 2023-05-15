@@ -13,3 +13,9 @@ EndSection''' | sudo tee /etc/X11/xorg.conf.d/vesa-swcursor.conf
 
 more:
 - https://www.reddit.com/r/linuxquestions/comments/21h663/comment/cgewt03/
+
+# Research:
+sch: https://www.google.com/search?q=virt-viewer+swcursor
+
+bug:
+- [No mouse cursor in Spice/QXL-enabled guests](https://bugzilla.redhat.com/show_bug.cgi?id=985461)
