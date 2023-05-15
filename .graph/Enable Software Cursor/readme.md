@@ -10,9 +10,12 @@ echo '''Section "Device"
   Option     "SWcursor" "on"
 EndSection''' | sudo tee /etc/X11/xorg.conf.d/vesa-swcursor.conf
 ```
-
 more:
 - https://www.reddit.com/r/linuxquestions/comments/21h663/comment/cgewt03/
+
+# Doesn't work in QXL Displays
+Works in:
+- VGA
 
 # Research:
 sch: https://www.google.com/search?q=virt-viewer+swcursor
